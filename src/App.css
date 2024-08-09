@@ -1,0 +1,482 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --primary-radius: 10px;
+  --secondary-radius: 5px;
+  --placeholder-color: #fafafa;
+  --border-color: #f5f5ff;
+  --light-text-color: #0b0b0c;
+  --font-size: 18px;
+
+  --button-bg-color: #6ced88; /* Silver background */
+  --button-primary-color: #ffffff; /* Violet */
+  --button-secondary-color: #101010; /* Magenta */
+  --button-accent-color: #000000; /* Cyan */
+}
+
+/* ------------ Body Start ------------ */
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--secondary-color);
+  background: linear-gradient(45deg, #dd32cf, #bcfdbe, #87b028);
+  background-size: 100% 100%;
+  animation: gradientAnimation 7s ease infinite;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Gradient animation */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* ------------ Input Start ------------ */
+
+input {
+  width: 100%;
+  height: 35px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: inherit;
+  padding: 9px 11px;
+  border: 1px solid var(--border-color);
+  font-size: 14px;
+  border-radius: var(--secondary-radius);
+}
+
+
+
+/* ------------ Label Start ------------ */
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ------------ Container Start ------------ */
+
+#container {
+  width: 100vw;
+  padding: 0px 30px 0px 80px;
+  display: flex;
+  justify-content: center;
+  gap: 4.6rem;
+}
+
+/* ------------ Balances Component Start ------------ */
+
+.balances {
+  display: flex;
+  position: fixed;
+  right: 3rem;
+  top: 1rem;
+  gap: 1rem;
+}
+
+.balances > * {
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: var(--light-text-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--secondary-radius);
+}
+
+/* ------------ Swap Component Start ------------ */
+
+.swap-component {
+  background-color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--primary-radius);
+  width: 50%;
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Dashboard-MErchant{
+  background-color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--primary-radius);
+  width: 25%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swap-component-top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.swap-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+hr {
+  width: 100%;
+  border-color: var(--border-color);
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem;
+}
+
+.swap-component-middle-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.625rem;
+  width: 100%;
+}
+
+.swap-component-middle-section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-component {
+  display: flex;
+  gap: 11px;
+}
+
+.input-component input {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.swap-component-bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.swap-component-bottom-section div {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size);
+  font-weight: 500;
+  gap: 8px;
+}
+
+/* ------------ Transaction Component Start ------------ */
+
+.transaction-component {
+  background-color: var(--primary-color);
+  border-radius: var(--primary-radius);
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.order {
+  background-color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--primary-radius);
+  padding-top: 17px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.order-id {
+  padding-left: 1rem;
+  font-size: 16px;
+  display: flex;
+  gap: 1rem;
+}
+
+.order-id .enlarge svg {
+  height: 1rem;
+  cursor: pointer;
+}
+
+.amount-and-status {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.amount-and-status * {
+  text-align: center;
+}
+
+.amount-label,
+.status-label {
+  padding: 5px;
+  font-size: var(--font-size);
+  color: var(--light-text-color);
+}
+
+.amount-label {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+.status-label {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.amount {
+  font-size: 20px;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--border-color);
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.status {
+  max-width: 125px;
+  font-size: 14px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status button {
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.pop-up-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #09090baa;
+}
+
+.pop-up {
+  border: 1px solid var(--border-color);
+  border-radius: var(--primary-radius);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  background-color: var(--primary-color);
+  gap: 1.6rem;
+}
+
+.pop-up > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.pop-up-label {
+  color: var(--light-text-color);
+  font-size: 1rem;
+}
+
+/* ------------ Transition and Animation ------------ */
+
+@keyframes waveAnimation {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0, 242, 255, 0.2), rgba(76, 175, 80, 0.2), rgba(155, 89, 182, 0.2));
+  opacity: 1.0;
+  animation: waveAnimation 15s infinite linear;
+  z-index: 0;
+}
+
+/* Apply wave animation to container */
+#container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 242, 255, 0.2);
+  opacity: 0.6;
+  animation: waveAnimation 15s infinite linear;
+  z-index: -1;
+}
+
+/* Ensure container has relative positioning for wave animation */
+#container {
+  position: relative;
+}
+
+/* ------------ App Layout Enhancements ------------ */
+
+#options {
+  display: flex;
+  gap: 1rem;
+  z-index: 1; /* Ensure options are above the wave */
+}
+
+/* Style for pop-up content */
+.pop-up {
+  border: 1px solid var(--border-color);
+  border-radius: var(--primary-radius);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  background-color: var(--primary-color);
+  gap: 1.6rem;
+}
+
+.pop-up-label {
+  color: var(--light-text-color);
+  font-size: 1rem;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+  #container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .swap-component, .transaction-component {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/* Button Base Styles */
+button {
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  border-radius: var(--secondary-radius);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  background-color: var(--button-bg-color); /* Silver background */
+  color: var(--button-primary-color); /* Default text color */
+  padding: 10px 20px;
+  overflow: hidden;
+  outline: none;
+}
+
+/* Button Default Styles */
+button.default {
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Smooth blend from blue to purple */
+  color: white;
+  border: 2px solid transparent;
+}
+
+/* Button Hover Styles */
+button.default:hover {
+  background: linear-gradient(45deg, #5e35b1, #1e88e5); /* Darker blend for hover effect */
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Button Active Styles */
+button.default:active {
+  background: linear-gradient(45deg, #4a148c, #1565c0); /* Even darker blend for active state */
+  color: #fff;
+  transform: scale(0.98);
+}
+
+/* Wave Effect */
+button.default::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(107, 246, 246, 0.837) 10%, transparent 20%);
+  transition: transform 0.5s, opacity 0.5s;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+}
+
+/* On Click Wave Effect */
+button.default:focus::before, button.default:active::before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/* Wave Animation */
+@keyframes waveAnimation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+button.default {
+  position: relative;
+  overflow: hidden;
+}
+
+button.default::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(100, 150, 250, 0.4), rgba(90, 110, 230, 0.4), rgba(70, 80, 200, 0.4));
+  opacity: 0.8;
+  animation: waveAnimation 15s infinite linear;
+  z-index: 0;
+}
+
+/* Ensuring content is above wave effect */
+button.default span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Option container */
+#options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent; /* Initial state */
+  position: relative; /* Initial state */
+  transition: all 0.3s ease-in-out;
+  gap: 1rem;
+}
+
+#options.fixed {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
