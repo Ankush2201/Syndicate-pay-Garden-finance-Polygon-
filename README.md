@@ -65,8 +65,8 @@ Syndicate Pay ensures that assets can move securely between different blockchain
         ![image](https://github.com/user-attachments/assets/d2aeaec7-9d8e-461a-8466-d79eab0ab43c)
 swap function:
         ![WhatsApp Image 2024-08-09 at 13 13 50_9b8dcdbf](https://github.com/user-attachments/assets/05e53c97-46e5-4c3a-bd8d-0620839a0505)
-  ### proof:
-  basic transaction done through briding:
+  ## proof:
+  ### basic transaction done through briding:
   sended:
        ![WhatsApp Image 2024-08-09 at 13 14 31_4299388b](https://github.com/user-attachments/assets/1743afea-7cd5-4a51-8541-4ed259c844ef)
   recieved:
