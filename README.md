@@ -10,8 +10,6 @@ Furthermore, Syndicate Pay supports complex cross-network conversions, such as c
 ![WhatsApp Image 2024-08-10 at 23 04 06_cd9e7eef](https://github.com/user-attachments/assets/31798c14-1cb5-40ed-8b13-e395e07ac54e)
 
 ## how it works:
-   ### **Syndicate Pay: Detailed Workflow and Features with Polygon Integration**
-
 Syndicate Pay ensures that assets can move securely between different blockchain networks, such as from Polygon Sepolia ETH to Polygon zkEVM (Cardano). By automating these steps, Syndicate Pay removes the need for manual intervention, significantly reducing the risk of errors, delays, and security vulnerabilities, while providing a smooth and efficient user experience for cross-chain cryptocurrency transactions. The following procedure can be applied to four key operations: BTC to WBTC conversion through Garden Finance, and Polygon Sepolia ETH to Polygon zkEVM (Cardano) conversion through the Unified Bridge.
 
 **1. User Initiates the Process**
