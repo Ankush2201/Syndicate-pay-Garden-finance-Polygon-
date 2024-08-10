@@ -48,6 +48,7 @@ Syndicate Pay ensures that assets can move securely between different blockchain
 ### **Supported Operations**
 - **BTC to WBTC Conversion through Garden Finance's SDK**
 - **WBTC to Preferred Token Conversion through the Unified Bridge**
+- **WBTC to BTC  conversion through the garden finance's SDK**
 - **Polygon Sepolia ETH to Polygon zkEVM (Cardano) Conversion through the Unified Bridge**
 - **Polygon zkEVM (Cardano) to Polygon Sepolia ETH Conversion through the Unified Bridge**
 
