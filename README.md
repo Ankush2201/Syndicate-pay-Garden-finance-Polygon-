@@ -96,8 +96,8 @@ Here are the key features of the Syndicate Pay project:
 
 12. **Enhanced Security Measures**
     - Implements robust security protocols to protect against vulnerabilities during cross-chain transactions, ensuring the safety of users’ assets.
+![WhatsApp Image 2024-08-10 at 23 07 29_5edec4d5](https://github.com/user-attachments/assets/f81f8bb4-96e2-4951-8ad4-c76274517c48)
 
-Syndicate Pay combines these features to create a comprehensive, secure, and user-friendly platform for managing complex cryptocurrency transactions across different blockchain networks.
 ## screenshots:
    ### UI:
   home page:
