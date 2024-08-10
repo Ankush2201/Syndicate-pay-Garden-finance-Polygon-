@@ -56,3 +56,33 @@ Syndicate Pay ensures that assets can move securely between different blockchain
    ![image](https://github.com/user-attachments/assets/de7a5bfe-2f92-492e-a581-b4ab3887e82a)
 
   ![image](https://github.com/user-attachments/assets/c4bd267b-e4d5-47bb-bb05-6312905167c0)
+
+## screenshots:
+   ### UI:
+        home page:
+        ![WhatsApp Image 2024-08-09 at 13 05 39_5c2a5239](https://github.com/user-attachments/assets/e7ab6584-9e80-45e8-b596-d5651bcd5fa1)
+        merchant dashboard:
+        ![image](https://github.com/user-attachments/assets/d2aeaec7-9d8e-461a-8466-d79eab0ab43c)
+        swap function:
+        ![WhatsApp Image 2024-08-09 at 13 13 50_9b8dcdbf](https://github.com/user-attachments/assets/05e53c97-46e5-4c3a-bd8d-0620839a0505)
+  ### proof:
+        basic transaction done through briding:
+        sended
+        ![WhatsApp Image 2024-08-09 at 13 14 31_4299388b](https://github.com/user-attachments/assets/1743afea-7cd5-4a51-8541-4ed259c844ef)
+        recieved:
+        ![WhatsApp Image 2024-08-09 at 13 15 04_dbfdc8a0](https://github.com/user-attachments/assets/ecba0657-5180-417d-b9ba-f45a71626cab)
+        agglayer connection establishment:
+        ![WhatsApp Image 2024-08-09 at 13 13 50_51898f0f](https://github.com/user-attachments/assets/bf794976-1721-4c9c-bec6-e26843facb94)
+        agglayer hash:
+        ![WhatsApp Image 2024-08-09 at 17 22 45_c79f1e84](https://github.com/user-attachments/assets/a6f75019-100b-4235-81e6-7c7b5c9e7efa)
+        transaction verifier: 
+        ![WhatsApp Image 2024-08-09 at 17 24 25_bec9eb4c](https://github.com/user-attachments/assets/65c6d1b4-60e6-48de-a4ec-387e79b1bab4)
+        ![WhatsApp Image 2024-08-09 at 18 16 50_0d640150](https://github.com/user-attachments/assets/264d6331-b7af-41e2-ad43-2aa1fc266b2c)
+        conversion(sepolia to cardona):
+        ![WhatsApp Image 2024-08-09 at 18 40 38_2eaf1d35](https://github.com/user-attachments/assets/97ac2b65-0e6e-451a-bbe6-e042cbd486b7)
+## verification link:
+    https://sepolia.etherscan.io/tx/0x88d088e7e5b7fbdc3dc02c7c804e872a4d706363bf9c8021269eb37cd6bb9a45
+    video: https://drive.google.com/drive/u/1/folders/1EbsSiyJAIARoZgNaRmg427lyxS7NCC3i
+    
+
+ 
