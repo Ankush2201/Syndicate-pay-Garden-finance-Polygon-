@@ -71,9 +71,10 @@ swap function:
        ![WhatsApp Image 2024-08-09 at 13 14 31_4299388b](https://github.com/user-attachments/assets/1743afea-7cd5-4a51-8541-4ed259c844ef)
   recieved:
         ![WhatsApp Image 2024-08-09 at 13 15 04_dbfdc8a0](https://github.com/user-attachments/assets/ecba0657-5180-417d-b9ba-f45a71626cab)
-  agglayer connection establishment:
-       
+  
+  agglayer connection establishment:     
   ![WhatsApp Image 2024-08-09 at 13 13 50_51898f0f](https://github.com/user-attachments/assets/bf794976-1721-4c9c-bec6-e26843facb94)
+  
   agglayer hash:
   ![WhatsApp Image 2024-08-09 at 17 22 45_c79f1e84](https://github.com/user-attachments/assets/a6f75019-100b-4235-81e6-7c7b5c9e7efa)
   transaction verifier: 
