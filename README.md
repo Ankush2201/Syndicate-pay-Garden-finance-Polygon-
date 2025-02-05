@@ -1,3 +1,5 @@
+![Video]( https://drive.google.com/drive/u/1/folders/1EbsSiyJAIARoZgNaRmg427lyxS7NCC3i)
+
 ## Syndicate-Pay:-(for project track of garden finance and polygon)
   In the dynamic and rapidly evolving world of cryptocurrencies, users are often confronted with significant challenges when attempting to transfer assets across different blockchain networks or convert one cryptocurrency into another. The complexities inherent in these processes can make them cumbersome, time-consuming, and fraught with risks. These difficulties are especially pronounced when dealing with various protocols and networks that may not be directly compatible with each other. Syndicate Pay is a cutting-edge solution designed to address these challenges head-on. It offers a streamlined, automated, and secure platform for managing cryptocurrency transactions, whether they involve simple token conversions or more complex cross-network asset transfers. By integrating advanced tools like Garden Finance's SDK and Polygon's Unifier Bridge, Syndicate Pay provides users with a seamless experience, reducing the complexity and risk typically associated with such transactions.
 
